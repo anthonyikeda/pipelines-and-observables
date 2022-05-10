@@ -2,9 +2,7 @@ import { switchMap, map, of, Observable } from "rxjs";
 import { LinkedAccount, User } from "./_model";
 
 export class AuthValidationService {
-  // constructor() {}
-
-  getLinkedAccounts(email: string): Observable<LinkedAccount> {
+  private getLinkedAccounts(email: string): Observable<LinkedAccount> {
     const acct: LinkedAccount = {
       id: 4092,
       email: email,
