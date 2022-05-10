@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "typescript": "4.6.2",
+    "rxjs": "~7.5.0"
+  },
+  "description": "TypeScript playground exported Sandbox",
+  "name": "observablepipelines",
+  "version": "0.0.5",
+  "keywords": [],
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
